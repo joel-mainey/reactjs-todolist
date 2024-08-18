@@ -19,13 +19,15 @@ button {
   display: flex;
   flex-direction: column;
   padding: 14px;
-  background: #eff6ff;
+  background: #fff;
   gap: 14px;
 }
 
 header {
   display: flex;
   align-items: stretch;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
 }
 
 header,
@@ -41,6 +43,7 @@ header input {
   border-radius: 14px;
   outline: none;
   width: 100%;
+
 }
 
 header button {
@@ -79,6 +82,8 @@ p {
   padding: 14px;
   border-radius: 14px;
   background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
 }
 
 .todoItem p {
